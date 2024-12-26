@@ -122,7 +122,7 @@ const Contact = () => {
               />
             </div>
             <div className="w-full bg-[#FFFFFF] text-black flex justify-center p-8">
-              <div className="w-full mx-30 grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="w-full mx-0 md:mx-30 grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="p-6 bg-[#F5F5F5] rounded shadow-md text-center flex flex-col justify-between">
                   <div>
                     <div className="flex justify-center mb-4">
@@ -172,7 +172,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex flex-col items-center p-8 rounded shadow-md">
-              <div className="flex items-center self-start mb-4 ml-30">
+              <div className="flex items-center self-start mb-4 ml-0 md:ml-30">
                 <Image
                   src={GoogleMap}
                   alt="Google Map Icon"
