@@ -1,7 +1,15 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import images_1 from "../../public/images/blog/image_1.png"
+import { useRouter } from "next/navigation";
+
 const Blog = () => {
+    const router = useRouter()
+    const handleClick = () => {
+      router.push('/blog')
+    }
   return (
     <section id="features" className="py-20 lg:py-20 xl:py-20 bg-white">
         <div className="mx-auto px-4 md:px-8 xl:px-20">
@@ -38,6 +46,12 @@ const Blog = () => {
                 <span className="text-xs text-[#5FC3F7] mt-2 block">BTV. Dũng Đinh</span>
               </div>
             </div>
+          </div>
+
+          <div className="text-center mb-10">
+                <button onClick={handleClick} className="mt-6 px-6 py-2 bg-[#A4DEFC] text-black border border-black rounded hover:bg-gray-100">
+                  Đọc thêm
+                </button>
           </div>
         </div>
       </section>

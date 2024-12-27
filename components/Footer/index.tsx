@@ -70,22 +70,22 @@ const Footer = () => {
                   </h4>
                   <ul>
                     <li>
-                      <a href="#" className="mb-3 inline-block hover:text-[#FFFFFF]">
+                      <a href="/about-us" className="mb-3 inline-block hover:text-[#FFFFFF]">
                         Về chúng tôi
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 inline-block hover:text-[#FFFFFF]">
+                      <a href="/contact" className="mb-3 inline-block hover:text-[#FFFFFF]">
                         Liên hệ
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 inline-block hover:text-[#FFFFFF]">
+                      <a href="/blog" className="mb-3 inline-block hover:text-[#FFFFFF]">
                         Tin tức
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 inline-block hover:text-[#FFFFFF]">
+                      <a href="/support" className="mb-3 inline-block hover:text-[#FFFFFF]">
                         Tuyển dụng
                       </a>
                     </li>
@@ -114,22 +114,22 @@ const Footer = () => {
                   </h4>
                   <ul>
                     <li>
-                      <a href="#" className="mb-3 inline-block hover:text-white">
+                      <a href="/main" className="mb-3 inline-block hover:text-white">
                         Kiểm toán và báo cáo tài chính
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 inline-block hover:text-white">
+                      <a href="/main" className="mb-3 inline-block hover:text-white">
                         Kiểm toán xây dựng cơ bản
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 inline-block hover:text-white">
+                      <a href="/main" className="mb-3 inline-block hover:text-white">
                         Kế toán, thuế
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="mb-3 inline-block hover:text-white">
+                      <a href="/main" className="mb-3 inline-block hover:text-white">
                         Chuyên ngành khác
                       </a>
                     </li>

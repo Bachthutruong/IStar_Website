@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import vietnam from "../../public/images/vietnam.png"
-import support from "../../public/images/support.png"
+import phone from "../../public/images/phone.png"
 import logo from "../../public/images/logo/Logo.png"
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
@@ -156,12 +156,24 @@ const Header = () => {
               className=""
             />
             <div className="h-6 border-l border-gray-400"></div>
-            <Image
-              src={support}
-              alt="logo"
-              className=""
-            />
-          </div>
+            <div className="flex items-center gap-2">
+              <Image
+                src={phone}
+                alt="logo"
+                className=""
+              />
+              <div className="flex flex-col text-sm font-sans">
+                <span className="text-gray-600">Cần hỗ trợ?</span>
+                <a
+                  href="tel:+84966992468"
+                  className="text-[#FF662E] text-l font-bold hover:underline"
+                >
+                  +84 989 326 246
+                </a>
+              </div>
+            </div>
+            </div>
+            
         </div>
       </div>
     </header>

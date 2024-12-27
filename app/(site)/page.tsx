@@ -15,7 +15,7 @@ import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
   title: "IStar",
-  description: "This is Home for Solid Pro",
+  description: "Kiểm toán IStar",
   // other metadata
 };
 
