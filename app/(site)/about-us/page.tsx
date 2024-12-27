@@ -61,7 +61,7 @@ export default function AboutUsPage() {
                 />
               </div>
               <div className="w-full md:w-2/3 text-[#262626] flex flex-col justify-center p-8">
-                <p className="leading-relaxed mx-0 my-4 md:mx-16">
+                <p className="leading-relaxed text-xl font-bold mx-0 my-4 md:mx-16">
                   Lời Ngỏ!
                 </p>
                 <p className="leading-relaxed mx-0 my-4 md:mx-16">
@@ -90,6 +90,7 @@ export default function AboutUsPage() {
                 </p>
               </div>
             </div>
+            
             <div className="flex flex-col md:flex-row items-stretch h-full">
               <div className="w-full md:w-1/2 relative">
                 <Image
