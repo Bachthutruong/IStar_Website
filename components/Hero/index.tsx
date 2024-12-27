@@ -1,8 +1,13 @@
 "use client";
 import Image from "next/image";
 import image_left from "../../public/images/background/image_left.png";
+import { useRouter } from "next/navigation";
 
 const Hero = () => {
+  const router = useRouter()
+  const handleClick = () => {
+    router.push('/contact')
+  }
   return (
     <>
       <section className="">
@@ -26,7 +31,7 @@ const Hero = () => {
                 Với bề dày kinh nghiệm của đội ngũ nhân sự, ISTAR hoạt động "độc lập", 
                 thực hiện trách nhiệm một cách "tận tụy" để đảm bảo sự "hài lòng" trọn vẹn cho khách hàng.
               </p>
-              <button className="mt-6 w-[140px] md:mx-16 px-6 py-3 bg-[#A4DEFC] text-[#2C2C52] font-medium rounded hover:bg-[#89ccea]">
+              <button onClick={handleClick} className="mt-6 w-[140px] md:mx-16 px-6 py-3 bg-[#A4DEFC] text-[#2C2C52] font-medium rounded hover:bg-[#89ccea]">
                 Liên Hệ
               </button>
             </div>
