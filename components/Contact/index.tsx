@@ -132,7 +132,7 @@ const Contact = () => {
                           className="object-cover"
                         />
                     </div>
-                    <h5 className="text-lg font-medium mb-2">Yêu cầu báo giá</h5>
+                    <h5 className="text-lg font-medium mb-2">Đội ngũ Kiểm toán viên</h5>
                     <p className="text-sm text-gray-600 mb-4">
                       Đội ngũ luật sư giàu kinh nghiệm của chúng tôi sẵn sàng cung cấp các giải pháp phù hợp để đáp ứng mục tiêu của bạn.
                     </p>
@@ -148,7 +148,7 @@ const Contact = () => {
                           className="object-cover"
                         />
                     </div>
-                    <h5 className="text-lg font-medium mb-2">Điều tra</h5>
+                    <h5 className="text-lg font-medium mb-2">Hỗ trợ văn bản chuyên ngành</h5>
                     <p className="text-sm text-gray-600 mb-4">
                       Đội ngũ luật sư giàu kinh nghiệm của chúng tôi sẵn sàng cung cấp các giải pháp phù hợp để đáp ứng mục tiêu của bạn.
                     </p>
