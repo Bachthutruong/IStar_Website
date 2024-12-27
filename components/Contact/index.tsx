@@ -74,7 +74,7 @@ const Contact = () => {
                   </div>
                   <div className="p-6 mx-0 sm:mx-20 md:mx-40 bg-white rounded">
                     <div className="text-center">
-                      <p className="text-md text-[#8C8C8C] my-2">Gửi thông tin để nhận tư vấn</p>
+                      <p className="text-md text-[#8C8C8C] my-2">Gửi thông tin để nhận tư vấn và báo giá</p>
                       <h3 className="text-2xl mb-8 font-bold text-[#26256A] mt-1">NGAY BÂY GIỜ</h3>
                     </div>
                     <form className="space-y-4">
