@@ -165,7 +165,7 @@ const Header = () => {
               <div className="flex flex-col text-sm font-sans">
                 <span className="text-gray-600">Cần hỗ trợ?</span>
                 <a
-                  href="tel:+84966992468"
+                  href="tel:+84989326246"
                   className="text-[#FF662E] text-l font-bold hover:underline"
                 >
                   +84 989 326 246
